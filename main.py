@@ -17,7 +17,7 @@ app = FastAPI(title="Portfolio API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://osama-al-bashari.vercel.app",],
+    allow_origins=["https://osama-al-bashari.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
